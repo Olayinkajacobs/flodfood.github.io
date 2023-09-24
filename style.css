@@ -227,6 +227,11 @@ input {
   color: #242424;
 }
 
+.menu-list img {
+  width: 200px;
+  height: auto;
+}
+
 .main-label {
   display: flex;
   align-items: center;
