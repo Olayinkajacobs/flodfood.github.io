@@ -540,7 +540,11 @@ header.sticky {
   align-items: center;
   background-color: #fee4e3;
   padding: 60px 100px;
-  border-radius: 6px;
+  border-radius: 6px 6px 0 0;
+}
+
+.subscribe {
+  padding-bottom: 0;
 }
 
 .subscribe-btn {
@@ -566,4 +570,77 @@ header.sticky {
   font-family: "Artifika", serif;
   font-size: 28px;
   margin-bottom: 24px;
+}
+
+.last-info {
+  padding: 0% 100px;
+  background-color: #242424;
+  margin: 0 10%;
+}
+
+.footer-body {
+  display: flex;
+  /* background-color: #242424; */
+  justify-content: space-between;
+  gap: 2rem;
+  /* width: 100%;
+  height: auto; */
+  padding: 60px 0px;
+}
+
+.comp-logo img {
+  width: 120px;
+  height: auto;
+}
+
+.footer-body p {
+  color: #bfbfbf;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-transform: capitalize;
+}
+
+.footer-body h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.comp-logo i {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.comp-logo i:hover {
+  color: #c43a38;
+  transform: scale(1.2);
+}
+
+.comp-logo p {
+  padding-bottom: 24px;
+}
+
+.company p:hover {
+  color: #c43a38;
+  cursor: pointer;
+}
+
+.Flodfood-footer p:hover {
+  color: #c43a38;
+  cursor: pointer;
+}
+
+.Menu-footer p:hover {
+  color: #c43a38;
+  cursor: pointer;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  text-transform: capitalize;
 }
