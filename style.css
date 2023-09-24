@@ -605,6 +605,7 @@ header.sticky {
   font-size: 20px;
   color: #fff;
   font-weight: 500;
+  padding-bottom: 12px;
 }
 
 .comp-logo i {
